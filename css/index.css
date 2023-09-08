@@ -1,5 +1,8 @@
 @import url(./icons.css);
 @import url(./fonts.css);
+@import url(./body.css);
+@import url(./link.css);
+
 
 :root {
     --primary: #00B050;
@@ -19,16 +22,3 @@
     --small: normal .75em/normal var(--basefontFamily);
 }
 
-body {
-    background: var(--primary);
-    font-family: var(--basefontFamily);
-}
-
-button {
-    font-size: 40px;
-    color: green;
-}
-
-button:hover {
-    color: black;
-}
