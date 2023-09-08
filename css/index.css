@@ -2,6 +2,7 @@
 @import url(./fonts.css);
 @import url(./body.css);
 @import url(./link.css);
+@import url(./button-icon.css);
 
 
 :root {
@@ -21,4 +22,3 @@
     --button: bold .875rem/1rem var(--basefontFamily);
     --small: normal .75em/normal var(--basefontFamily);
 }
-
