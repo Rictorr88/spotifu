@@ -10,10 +10,13 @@
 @import url(./player-playback.css);
 @import url(./player-volume.css);
 @import url(./player.css);
+@import url(./now-playing.css);
+
 
 
 
 :root {
+    font-size: 16px;
     --primary: #00B050;
     --white: #ffffff;
     --gray10: #B3B3B3;
