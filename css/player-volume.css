@@ -1,3 +1,9 @@
-/* .playerVolume {
-    border: 1px solid red;
-} */
+.playerVolume {
+    display: flex;
+    align-items: center;
+}
+
+.playerVolume-slider {
+    /* flex: 1; */
+    inline-size: 6rem;
+}
