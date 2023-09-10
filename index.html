@@ -7,32 +7,32 @@
     <link rel="stylesheet" href="./css/index.css">
     <title>Spotifu</title>
     <meta property="og:title" content="Mi Spotifu"/>
-<meta property="og:type" content="Music"/>
-<meta property="og:description" content="Este es un reproductor de musica Spotifu"/>
-<meta property="og:url" content="https://rictorr88.github.io/spotifu/"/>
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Spotify_App_Logo.svg/1200px-Spotify_App_Logo.svg.png"/>
-<link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
-<link rel="manifest" href="./favicon//manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
+    <meta property="og:type" content="Music"/>
+    <meta property="og:description" content="Este es un reproductor de musica Spotifu"/>
+    <meta property="og:url" content="https://rictorr88.github.io/spotifu/"/>
+    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Spotify_App_Logo.svg/1200px-Spotify_App_Logo.svg.png"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png"> <link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon//manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body class="body">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur odit assumenda, aut dolores nostrum facere optio quod illo impedit doloremque molestiae, laboriosam libero? Saepe odit est tenetur id aperiam architecto!</p>   
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur odit assumenda, aut dolores nostrum facere optio quod illo impedit doloremque molestiae, laboriosam libero? Saepe odit est tenetur id aperiam architecto!</p>
+    
     <div class="playerControls">
-        <div class="playerControls-buttons">
+        <div class="playerControls-buttons" aria-label="Controles de reproduccion">
             <button class="buttonIcon" -aria-label="Anterior" title="Anterior">
                 <i class="icon-prev" aria-hidden="true"></i>
             </button>
@@ -43,12 +43,20 @@
                 <i class="icon-next" aria-hidden="true"></i>
             </button>           
         </div>
-        <div class="slider">
-            <div class="slider-progress">
-                <button class="slider-button" aria-label="Controlar el progreso de la reproduccion"></button>
+        <div class="playerPlayback">
+            <span class="playerPlayback-progressTime">01:40</span>
+            <div class="playerPlayback-slider">
+                <div class="slider">
+                    <div class="slider-progress">
+                        <button class="slider-button" aria-label="Controlar el progreso de la reproduccion"></button>
+                    </div>
+                </div>
             </div>
+            <span class="playerPlayback-progressTime">01:40</span>
         </div>
     </div>
+
+
     <div class="sidebar">
         <header class="logo">
             <a href="/" aria-current="page">
