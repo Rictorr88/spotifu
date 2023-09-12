@@ -39,3 +39,7 @@
 /* .menuItem.is-active .icon-home::before {
     content: "\e90a";
 } */
+
+.menuItem:hover {
+    box-shadow: inset 4px 0 0 var(--primary);
+}

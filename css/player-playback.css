@@ -10,9 +10,8 @@
 }
 
 .playerPlayback-progressTime {
-    /* border: 1px solid red; */
     font: var(--small);
-    line-height: 1;
+    /* line-height: 1;
     position: relative;
-    top: 1px;
+    top: 1px; */
 }

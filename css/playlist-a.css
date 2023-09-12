@@ -1,5 +1,5 @@
 .playlistA {
-    inline-size: 13em;
+    inline-size: 11em;
     padding: 1rem;
     border-radius: .25rem;
     background: var(--gray40);
@@ -45,6 +45,7 @@
 .playlistA-title {
     font: var(--baseFontBold);
     color: var(--white);
+    margin: 0;
 }
 
 .playlistA-description {

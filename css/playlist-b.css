@@ -4,7 +4,7 @@
     border-radius: .5rem;
     overflow: hidden;
     background: rgba(255, 255, 255, .1);
-    transition: .3s background;
+    transition: .3s;
 }
 
 .playlistB:hover, .playlistB:focus-within {
@@ -21,8 +21,8 @@
 
 .playlistB-cover img {
     vertical-align: middle;
-    inline-size: 4.75rem;
-    block-size: 4.75rem;
+    inline-size: 5.6rem;
+    block-size: 5.6rem;
 }
 
 .playlistB-title {
