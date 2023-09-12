@@ -29,20 +29,22 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 <body class="body">
-    <header>
-        <div class="navigation">
-            <button class="navigation-prev" aria-label="Volver" title="Volver" >
-                <i class="icon-arrowLeft" aria-hidden="true" ></i>
-            </button>
-            <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar" >
-                <i class="icon-arrowRight" aria-hidden="true" ></i>
-            </button>
-        </div>
-        <form class="search" action="" role="search" aria-label="Buscar por Artistas,Canciones o Podcast">
-            <i class="icon-search" aria-hidden="true" ></i>
-            <input type="search" placeholder="Buscar por Artistas,Canciones o Podcast">
-        </form>
-    </header>
+    <div class="sticky">
+        <header class="header" aria-label="Barra superior y menu del usuario">
+            <div class="navigation">
+                <button class="navigation-prev" aria-label="Volver" title="Volver" >
+                    <i class="icon-arrowLeft" aria-hidden="true" ></i>
+                </button>
+                <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar" >
+                    <i class="icon-arrowRight" aria-hidden="true" ></i>
+                </button>
+            </div>
+            <form class="search" action="" role="search" aria-label="Buscar por Artistas,Canciones o Podcast">
+                <i class="icon-search" aria-hidden="true" ></i>
+                <input type="search" placeholder="Buscar por Artistas,Canciones o Podcast">
+            </form>
+        </header>
+    </div>
     <section class="playlistList" aria-labelledby="region1">
         <div class="playlistList-top">
             <h2 class="playlistList-title" id="region1">
