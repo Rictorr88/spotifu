@@ -29,255 +29,491 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 <body class="body">
-    <div class="sticky">
-        <header class="header" aria-label="Barra superior y menu del usuario">
-            <div class="navigation">
-                <button class="navigation-prev" aria-label="Volver" title="Volver" >
-                    <i class="icon-arrowLeft" aria-hidden="true" ></i>
-                </button>
-                <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar" >
-                    <i class="icon-arrowRight" aria-hidden="true" ></i>
-                </button>
+    <div class="page">
+        <div class="sticky">
+            <div class="page-block">
+                <header class="header" aria-label="Barra superior y menu del usuario">
+                    <div class="navigation">
+                        <button class="navigation-prev" aria-label="Volver" title="Volver" >
+                            <i class="icon-arrowLeft" aria-hidden="true" ></i>
+                        </button>
+                        <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar" >
+                            <i class="icon-arrowRight" aria-hidden="true" ></i>
+                        </button>
+                    </div>
+                    <form class="search" action="" role="search" aria-label="Buscar por Artistas,Canciones o Podcast">
+                        <i class="icon-search" aria-hidden="true" ></i>
+                        <input type="search" placeholder="Buscar por Artistas,Canciones o Podcast">
+                    </form>
+                </header>
             </div>
-            <form class="search" action="" role="search" aria-label="Buscar por Artistas,Canciones o Podcast">
-                <i class="icon-search" aria-hidden="true" ></i>
-                <input type="search" placeholder="Buscar por Artistas,Canciones o Podcast">
-            </form>
-        </header>
+        </div>
+
+        <main class="page-block">
+            <section class="playlistList" aria-labelledby="region1">
+                <div class="playlistList-top">
+                    <h2 class="playlistList-title" id="region1">
+                        Buenas noches
+                    </h2>
+        
+                    <div class="navigation">
+                        <button class="navigation-prev" aria-label="Volver" title="Volver" >
+                            <i class="icon-arrowLeft" aria-hidden="true" ></i>
+                        </button>
+                        <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar" >
+                            <i class="icon-arrowRight" aria-hidden="true" ></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="playlistList-container">
+                    <div class="playlistB">
+                        <div class="playlistB-cover">
+                            <img src="./images/aerosmith.png" width="76" height="76" alt="Cover de la playlist aerosmith">          
+                        </div>
+                        <div class="playlistB-details">
+                            <h3 class="playlistB-title">Aerosmith Big Ones</h3>
+                            <div class="playlistB-control">
+                                <button class="buttonIcon is-primary" title="Reproducir la Lista de reproduccion Aerosmith Big Ones" aria-label="Reproducir la Lista de reproduccion Aerosmith Big Ones">
+                                    <i class="icon-play" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="playlistB">
+                        <div class="playlistB-cover">
+                            <img src="./images/avril-lavigne.png" width="76" height="76" alt="Cover de la playlist Avril Lavigne">          
+                        </div>
+                        <div class="playlistB-details">
+                            <h3 class="playlistB-title">Avril Lavigne</h3>
+                            <div class="playlistB-control">
+                                <button class="buttonIcon is-primary" title="Reproducir la Lista de reproduccion Avril Lavigne" aria-label="Reproducir la Lista de reproduccion Avril Lavigne">
+                                    <i class="icon-play" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="playlistB">
+                        <div class="playlistB-cover">
+                            <img src="./images/hobastank.png" width="76" height="76" alt="Cover de la playlist Hoobastank">          
+                        </div>
+                        <div class="playlistB-details">
+                            <h3 class="playlistB-title">Hoobastank</h3>
+                            <div class="playlistB-control">
+                                <button class="buttonIcon is-primary" title="Reproducir la Lista de reproduccion Hoobastank" aria-label="Reproducir la Lista de reproduccion Hoobastank">
+                                    <i class="icon-play" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="playlistB">
+                        <div class="playlistB-cover">
+                            <img src="./images/mariposa.png" width="76" height="76" alt="Cover de la playlist Mariposa">          
+                        </div>
+                        <div class="playlistB-details">
+                            <h3 class="playlistB-title">Mariposa</h3>
+                            <div class="playlistB-control">
+                                <button class="buttonIcon is-primary" title="Reproducir la Lista de reproduccion Mariposa" aria-label="Reproducir la Lista de reproduccion Mariposa">
+                                    <i class="icon-play" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="playlistB">
+                        <div class="playlistB-cover">
+                            <img src="./images/nickekback.png" width="76" height="76" alt="Cover de la playlist Nickekback">          
+                        </div>
+                        <div class="playlistB-details">
+                            <h3 class="playlistB-title">Nickekback</h3>
+                            <div class="playlistB-control">
+                                <button class="buttonIcon is-primary" title="Reproducir la Lista de reproduccion Nickekback" aria-label="Reproducir la Lista de reproduccion Nickekback">
+                                    <i class="icon-play" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="playlistB">
+                        <div class="playlistB-cover">
+                            <img src="./images/one-republic.png" width="76" height="76" alt="Cover de la playlist One Repuclic">          
+                        </div>
+                        <div class="playlistB-details">
+                            <h3 class="playlistB-title">One Repuclic</h3>
+                            <div class="playlistB-control">
+                                <button class="buttonIcon is-primary" title="Reproducir la Lista de reproduccion One Repuclic" aria-label="Reproducir la Lista de reproduccion One Repuclic">
+                                    <i class="icon-play" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="playlistB">
+                        <div class="playlistB-cover">
+                            <img src="./images/passenger.png" width="76" height="76" alt="Cover de la playlist Passenger">          
+                        </div>
+                        <div class="playlistB-details">
+                            <h3 class="playlistB-title">Passenger</h3>
+                            <div class="playlistB-control">
+                                <button class="buttonIcon is-primary" title="Reproducir la Lista de reproduccion Passenger" aria-label="Reproducir la Lista de reproduccion Passenger">
+                                    <i class="icon-play" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+        
+            <section class="playlistList" aria-labelledby="region2">
+                <div class="playlistList-top">
+                    <h2 class="playlistList-title" id="region2">
+                        Escuchado recientemente
+                    </h2>
+                    <div class="navigation">
+                        <button class="navigation-prev" aria-label="Volver" title="Volver" >
+                            <i class="icon-arrowLeft" aria-hidden="true" ></i>
+                        </button>
+                        <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar" >
+                            <i class="icon-arrowRight" aria-hidden="true" ></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="playlistList-container">
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/pokemon.png" width="150p" height="150" alt="Cover de la playlist Pokemon Master The Hit Tv Series">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Pokemon Master The Hit Tv Series</h3>
+                        <h4 class="playlistA-description">Pokemon Theme, Viridian City, My best friends</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/porta.png" width="150p" height="150" alt="Cover de la playlist Porta">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Porta</h3>
+                        <h4 class="playlistA-description">Dragon ball rap, En boca de tantos, Suben al cielo</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/simple-plan.png" width="150p" height="150" alt="Cover de la playlist Simple Plan">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Simple Plan</h3>
+                        <h4 class="playlistA-description">Shut up!, Welcome to my life, Crazy</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/snow-patrol.png" width="150p" height="150" alt="Cover de la playlist Snow Patrol">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Snow Patrol</h3>
+                        <h4 class="playlistA-description">Chasing Stars, Hands Open, Make this go on Forever</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/the-calling.png" width="150p" height="150" alt="Cover de la playlist The calling">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">The calling</h3>
+                        <h4 class="playlistA-description">Wherever you will go, Unstoppable, Adrienme</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/valerian.png" width="150p" height="150" alt="Cover de la playlist Valerian">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Valerian</h3>
+                        <h4 class="playlistA-description">A million on my soul, Buble Dance, Mesussa</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/whithin-tempration.png" width="150p" height="150" alt="Cover de la playlist Within Temptation">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Whithin Temptation</h3>
+                        <h4 class="playlistA-description">All i need, In the middle of the night, Iron</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/yellowcard.png" width="150p" height="150" alt="Cover de la playlist Yellowcard">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Yellowcard</h3>
+                        <h4 class="playlistA-description">Only One, Way Away, Breathing</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/lagos.png" width="150p" height="150" alt="Cover de la playlist Lagos">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Lagos</h3>
+                        <h4 class="playlistA-description">Monaco, Julia, Reset</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/belinda.png" width="150p" height="150" alt="Cover de la playlist Belinda">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Belinda</h3>
+                        <h4 class="playlistA-description">Luz sin gravedad, Bella Traicion, Utopia</h4>
+                    </div>
+                </div>
+            </section>
+            <section class="playlistList" aria-labelledby="region3">
+                <div class="playlistList-top">
+                    <h2 class="playlistList-title" id="region3">
+                        Podcast
+                    </h2>
+                    <div class="navigation">
+                        <button class="navigation-prev" aria-label="Volver" title="Volver" >
+                            <i class="icon-arrowLeft" aria-hidden="true" ></i>
+                        </button>
+                        <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar" >
+                            <i class="icon-arrowRight" aria-hidden="true" ></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="playlistList-container">
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/pokemon.png" width="150p" height="150" alt="Cover de la playlist Pokemon Master The Hit Tv Series">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Pokemon Master The Hit Tv Series</h3>
+                        <h4 class="playlistA-description">Pokemon Theme, Viridian City, My best friends</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/porta.png" width="150p" height="150" alt="Cover de la playlist Porta">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Porta</h3>
+                        <h4 class="playlistA-description">Dragon ball rap, En boca de tantos, Suben al cielo</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/simple-plan.png" width="150p" height="150" alt="Cover de la playlist Simple Plan">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Simple Plan</h3>
+                        <h4 class="playlistA-description">Shut up!, Welcome to my life, Crazy</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/snow-patrol.png" width="150p" height="150" alt="Cover de la playlist Snow Patrol">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Snow Patrol</h3>
+                        <h4 class="playlistA-description">Chasing Stars, Hands Open, Make this go on Forever</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/the-calling.png" width="150p" height="150" alt="Cover de la playlist The calling">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">The calling</h3>
+                        <h4 class="playlistA-description">Wherever you will go, Unstoppable, Adrienme</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/valerian.png" width="150p" height="150" alt="Cover de la playlist Valerian">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Valerian</h3>
+                        <h4 class="playlistA-description">A million on my soul, Buble Dance, Mesussa</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/whithin-tempration.png" width="150p" height="150" alt="Cover de la playlist Within Temptation">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Whithin Temptation</h3>
+                        <h4 class="playlistA-description">All i need, In the middle of the night, Iron</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/yellowcard.png" width="150p" height="150" alt="Cover de la playlist Yellowcard">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Yellowcard</h3>
+                        <h4 class="playlistA-description">Only One, Way Away, Breathing</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/lagos.png" width="150p" height="150" alt="Cover de la playlist Lagos">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Lagos</h3>
+                        <h4 class="playlistA-description">Monaco, Julia, Reset</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/belinda.png" width="150p" height="150" alt="Cover de la playlist Belinda">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Belinda</h3>
+                        <h4 class="playlistA-description">Luz sin gravedad, Bella Traicion, Utopia</h4>
+                    </div>
+                </div>
+            </section>
+            <section class="playlistList" aria-labelledby="region4">
+                <div class="playlistList-top">
+                    <h2 class="playlistList-title" id="region4">
+                        Lo mejor de lo mejor
+                    </h2>
+                    <div class="navigation">
+                        <button class="navigation-prev" aria-label="Volver" title="Volver" >
+                            <i class="icon-arrowLeft" aria-hidden="true" ></i>
+                        </button>
+                        <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar" >
+                            <i class="icon-arrowRight" aria-hidden="true" ></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="playlistList-container">
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/pokemon.png" width="150p" height="150" alt="Cover de la playlist Pokemon Master The Hit Tv Series">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Pokemon Master The Hit Tv Series</h3>
+                        <h4 class="playlistA-description">Pokemon Theme, Viridian City, My best friends</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/porta.png" width="150p" height="150" alt="Cover de la playlist Porta">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Porta</h3>
+                        <h4 class="playlistA-description">Dragon ball rap, En boca de tantos, Suben al cielo</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/simple-plan.png" width="150p" height="150" alt="Cover de la playlist Simple Plan">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Simple Plan</h3>
+                        <h4 class="playlistA-description">Shut up!, Welcome to my life, Crazy</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/snow-patrol.png" width="150p" height="150" alt="Cover de la playlist Snow Patrol">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Snow Patrol</h3>
+                        <h4 class="playlistA-description">Chasing Stars, Hands Open, Make this go on Forever</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/the-calling.png" width="150p" height="150" alt="Cover de la playlist The calling">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">The calling</h3>
+                        <h4 class="playlistA-description">Wherever you will go, Unstoppable, Adrienme</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/valerian.png" width="150p" height="150" alt="Cover de la playlist Valerian">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Valerian</h3>
+                        <h4 class="playlistA-description">A million on my soul, Buble Dance, Mesussa</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/whithin-tempration.png" width="150p" height="150" alt="Cover de la playlist Within Temptation">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Whithin Temptation</h3>
+                        <h4 class="playlistA-description">All i need, In the middle of the night, Iron</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/yellowcard.png" width="150p" height="150" alt="Cover de la playlist Yellowcard">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Yellowcard</h3>
+                        <h4 class="playlistA-description">Only One, Way Away, Breathing</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/lagos.png" width="150p" height="150" alt="Cover de la playlist Lagos">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Lagos</h3>
+                        <h4 class="playlistA-description">Monaco, Julia, Reset</h4>
+                    </div>
+                    <div class="playlistA">
+                        <div class="playlistA-cover">
+                            <img src="./images/belinda.png" width="150p" height="150" alt="Cover de la playlist Belinda">
+                            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                                <i class="icon-play" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <h3 class="playlistA-title">Belinda</h3>
+                        <h4 class="playlistA-description">Luz sin gravedad, Bella Traicion, Utopia</h4>
+                    </div>
+                </div>
+            </section>
+        </main>
     </div>
-    <section class="playlistList" aria-labelledby="region1">
-        <div class="playlistList-top">
-            <h2 class="playlistList-title" id="region1">
-                Buenas noches
-            </h2>
-
-            <div class="navigation">
-                <button class="navigation-prev" aria-label="Volver" title="Volver" >
-                    <i class="icon-arrowLeft" aria-hidden="true" ></i>
-                </button>
-                <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar" >
-                    <i class="icon-arrowRight" aria-hidden="true" ></i>
-                </button>
-            </div>
-        </div>
-        <div class="playlistList-container">
-            <div class="playlistB">
-                <div class="playlistB-cover">
-                    <img src="./images/aerosmith.png" width="76" height="76" alt="Cover de la playlist aerosmith">          
-                </div>
-                <div class="playlistB-details">
-                    <h3 class="playlistB-title">Aerosmith Big Ones</h3>
-                    <div class="playlistB-control">
-                        <button class="buttonIcon is-primary" title="Reproducir la Lista de reproduccion Aerosmith Big Ones" aria-label="Reproducir la Lista de reproduccion Aerosmith Big Ones">
-                            <i class="icon-play" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="playlistB">
-                <div class="playlistB-cover">
-                    <img src="./images/avril-lavigne.png" width="76" height="76" alt="Cover de la playlist Avril Lavigne">          
-                </div>
-                <div class="playlistB-details">
-                    <h3 class="playlistB-title">Avril Lavigne</h3>
-                    <div class="playlistB-control">
-                        <button class="buttonIcon is-primary" title="Reproducir la Lista de reproduccion Avril Lavigne" aria-label="Reproducir la Lista de reproduccion Avril Lavigne">
-                            <i class="icon-play" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="playlistB">
-                <div class="playlistB-cover">
-                    <img src="./images/hobastank.png" width="76" height="76" alt="Cover de la playlist Hoobastank">          
-                </div>
-                <div class="playlistB-details">
-                    <h3 class="playlistB-title">Hoobastank</h3>
-                    <div class="playlistB-control">
-                        <button class="buttonIcon is-primary" title="Reproducir la Lista de reproduccion Hoobastank" aria-label="Reproducir la Lista de reproduccion Hoobastank">
-                            <i class="icon-play" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="playlistB">
-                <div class="playlistB-cover">
-                    <img src="./images/mariposa.png" width="76" height="76" alt="Cover de la playlist Mariposa">          
-                </div>
-                <div class="playlistB-details">
-                    <h3 class="playlistB-title">Mariposa</h3>
-                    <div class="playlistB-control">
-                        <button class="buttonIcon is-primary" title="Reproducir la Lista de reproduccion Mariposa" aria-label="Reproducir la Lista de reproduccion Mariposa">
-                            <i class="icon-play" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="playlistB">
-                <div class="playlistB-cover">
-                    <img src="./images/nickekback.png" width="76" height="76" alt="Cover de la playlist Nickekback">          
-                </div>
-                <div class="playlistB-details">
-                    <h3 class="playlistB-title">Nickekback</h3>
-                    <div class="playlistB-control">
-                        <button class="buttonIcon is-primary" title="Reproducir la Lista de reproduccion Nickekback" aria-label="Reproducir la Lista de reproduccion Nickekback">
-                            <i class="icon-play" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="playlistB">
-                <div class="playlistB-cover">
-                    <img src="./images/one-republic.png" width="76" height="76" alt="Cover de la playlist One Repuclic">          
-                </div>
-                <div class="playlistB-details">
-                    <h3 class="playlistB-title">One Repuclic</h3>
-                    <div class="playlistB-control">
-                        <button class="buttonIcon is-primary" title="Reproducir la Lista de reproduccion One Repuclic" aria-label="Reproducir la Lista de reproduccion One Repuclic">
-                            <i class="icon-play" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="playlistB">
-                <div class="playlistB-cover">
-                    <img src="./images/passenger.png" width="76" height="76" alt="Cover de la playlist Passenger">          
-                </div>
-                <div class="playlistB-details">
-                    <h3 class="playlistB-title">Passenger</h3>
-                    <div class="playlistB-control">
-                        <button class="buttonIcon is-primary" title="Reproducir la Lista de reproduccion Passenger" aria-label="Reproducir la Lista de reproduccion Passenger">
-                            <i class="icon-play" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="playlistList" aria-labelledby="region2">
-        <div class="playlistList-top">
-            <h2 class="playlistList-title" id="region2">
-                Escuchado recientemente
-            </h2>
-            <div class="navigation">
-                <button class="navigation-prev" aria-label="Volver" title="Volver" >
-                    <i class="icon-arrowLeft" aria-hidden="true" ></i>
-                </button>
-                <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar" >
-                    <i class="icon-arrowRight" aria-hidden="true" ></i>
-                </button>
-            </div>
-        </div>
-        <div class="playlistList-container">
-            <div class="playlistA">
-                <div class="playlistA-cover">
-                    <img src="./images/pokemon.png" width="150p" height="150" alt="Cover de la playlist Pokemon Master The Hit Tv Series">
-                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-                        <i class="icon-play" aria-hidden="true"></i>
-                    </button>
-                </div>
-                <h3 class="playlistA-title">Pokemon Master The Hit Tv Series</h3>
-                <h4 class="playlistA-description">Pokemon Theme, Viridian City, My best friends</h4>
-            </div>
-            <div class="playlistA">
-                <div class="playlistA-cover">
-                    <img src="./images/porta.png" width="150p" height="150" alt="Cover de la playlist Porta">
-                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-                        <i class="icon-play" aria-hidden="true"></i>
-                    </button>
-                </div>
-                <h3 class="playlistA-title">Porta</h3>
-                <h4 class="playlistA-description">Dragon ball rap, En boca de tantos, Suben al cielo</h4>
-            </div>
-            <div class="playlistA">
-                <div class="playlistA-cover">
-                    <img src="./images/simple-plan.png" width="150p" height="150" alt="Cover de la playlist Simple Plan">
-                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-                        <i class="icon-play" aria-hidden="true"></i>
-                    </button>
-                </div>
-                <h3 class="playlistA-title">Simple Plan</h3>
-                <h4 class="playlistA-description">Shut up!, Welcome to my life, Crazy</h4>
-            </div>
-            <div class="playlistA">
-                <div class="playlistA-cover">
-                    <img src="./images/snow-patrol.png" width="150p" height="150" alt="Cover de la playlist Snow Patrol">
-                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-                        <i class="icon-play" aria-hidden="true"></i>
-                    </button>
-                </div>
-                <h3 class="playlistA-title">Snow Patrol</h3>
-                <h4 class="playlistA-description">Chasing Stars, Hands Open, Make this go on Forever</h4>
-            </div>
-            <div class="playlistA">
-                <div class="playlistA-cover">
-                    <img src="./images/the-calling.png" width="150p" height="150" alt="Cover de la playlist The calling">
-                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-                        <i class="icon-play" aria-hidden="true"></i>
-                    </button>
-                </div>
-                <h3 class="playlistA-title">The calling</h3>
-                <h4 class="playlistA-description">Wherever you will go, Unstoppable, Adrienme</h4>
-            </div>
-            <div class="playlistA">
-                <div class="playlistA-cover">
-                    <img src="./images/valerian.png" width="150p" height="150" alt="Cover de la playlist Valerian">
-                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-                        <i class="icon-play" aria-hidden="true"></i>
-                    </button>
-                </div>
-                <h3 class="playlistA-title">Valerian</h3>
-                <h4 class="playlistA-description">A million on my soul, Buble Dance, Mesussa</h4>
-            </div>
-            <div class="playlistA">
-                <div class="playlistA-cover">
-                    <img src="./images/whithin-tempration.png" width="150p" height="150" alt="Cover de la playlist Within Temptation">
-                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-                        <i class="icon-play" aria-hidden="true"></i>
-                    </button>
-                </div>
-                <h3 class="playlistA-title">Whithin Temptation</h3>
-                <h4 class="playlistA-description">All i need, In the middle of the night, Iron</h4>
-            </div>
-            <div class="playlistA">
-                <div class="playlistA-cover">
-                    <img src="./images/yellowcard.png" width="150p" height="150" alt="Cover de la playlist Yellowcard">
-                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-                        <i class="icon-play" aria-hidden="true"></i>
-                    </button>
-                </div>
-                <h3 class="playlistA-title">Yellowcard</h3>
-                <h4 class="playlistA-description">Only One, Way Away, Breathing</h4>
-            </div>
-            <div class="playlistA">
-                <div class="playlistA-cover">
-                    <img src="./images/lagos.png" width="150p" height="150" alt="Cover de la playlist Lagos">
-                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-                        <i class="icon-play" aria-hidden="true"></i>
-                    </button>
-                </div>
-                <h3 class="playlistA-title">Lagos</h3>
-                <h4 class="playlistA-description">Monaco, Julia, Reset</h4>
-            </div>
-            <div class="playlistA">
-                <div class="playlistA-cover">
-                    <img src="./images/belinda.png" width="150p" height="150" alt="Cover de la playlist Belinda">
-                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-                        <i class="icon-play" aria-hidden="true"></i>
-                    </button>
-                </div>
-                <h3 class="playlistA-title">Belinda</h3>
-                <h4 class="playlistA-description">Luz sin gravedad, Bella Traicion, Utopia</h4>
-            </div>
-        </div>
-    </section>
-
-
-
-    
-
 
     <div class="sidebar">
         <header class="logo">
@@ -390,7 +626,7 @@
                         </a>
                     </div>
                     <div class="nowPlaying-actions">
-                        <button class="player-control" role="switch" aria-label="Guardar en tu Biblioteca" title="Guardar en tu Biblioteca">
+                        <button class="player-control" role="switch" aria-checked="false" aria-label="Guardar en tu Biblioteca" title="Guardar en tu Biblioteca">
                             <i class="icon-heart" aria-hidden="true"></i>
                         </button>
                    </div>
@@ -399,7 +635,7 @@
         </div>
         <div class="player-playerControls">
             <div class="playerControls">
-                <div class="playerControls-buttons" aria-label="Controles de reproduccion">
+                <div class="playerControls-buttons" aria-label="Controles de reproduccion" role="application">
                     <button class="buttonIcon" -aria-label="Anterior" title="Anterior">
                         <i class="icon-prev" aria-hidden="true"></i>
                     </button>
@@ -426,7 +662,7 @@
         <div class="player-playerVolume">
             <div class="playerVolume">
                 <button class="player-control" aria-label="Silenciar" aria-describedby="volume-icon">
-                    <i class="icon-volumeUp" id="volume-icon" role="presentation" aria-label="Volumen Alto"></i>
+                    <i class="icon-volumeUp" id="volume-icon" role="presentation"></i>
                 </button>
                 <div class="playerVolume-slider">
                     <div class="slider">
